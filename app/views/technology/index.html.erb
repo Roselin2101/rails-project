@@ -1,0 +1,15 @@
+<h1>Indice de la página</h1>
+<p>Acabo de modificar el archivo
+app/views/pages/index.html.erb</p>
+<h2>Hola Mundo!!</h2>
+Fecha Actual <%= Time.now %>
+<% if Time.now.year >= 2023 %>
+
+fecha actual <%= Time.now%>
+fecha formateada <%= Time.now.strftime("%Y-%m-%d %H:%M")%>
+
+
+ <p> Versión 2.0 </p>
+<% else %>
+ <p> versión 1.0 </p>
+<% end %>
